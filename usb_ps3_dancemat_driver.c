@@ -7,11 +7,9 @@
 #include <linux/hid.h>
 
 /*
-
 Simple PS3 DDR Dancemat Driver for Linux
-(Contact info here)
-(github link here)
-(license here)
+https://github.com/UntrustedRoot/Simple-PS3-DDR-Dancemat-Driver-for-Linux
+
 I was able to learn a lot about this process using the following refernces.
 https://embetronicx.com/tutorials/linux/device-drivers/usb-device-driver-example/
 https://github.com/Embetronicx/Tutorials/blob/master/Linux/Device_Driver/usb_device_driver/usb_driver.c
@@ -48,7 +46,7 @@ https://my.fsf.org/donate <== They could use it!
 
 #define HID_VENDOR_ID       ( 0x1ccf )
 #define HID_PRODUCT_ID      ( 0x1010 )
-#define NUMBER_OF_BUTTONS = 11
+#define NUMBER_OF_BUTTONS   11
 
 static struct hid_driver hid_spsdm; // [S]imple [P]lay[S]tation [D]ance[M]at driver. Find/Replace if you don't like it.
 
@@ -178,6 +176,6 @@ static struct hid_driver hid_spsdm = {
 };
 module_hid_driver(hid_spsdm);
 
-MODULE_AUTHOR("NO");
-MODULE_DESCRIPTION("NO");
+MODULE_AUTHOR("UntrustedRoot");
+MODULE_DESCRIPTION("Simple PS3 DDR Dancemat Driver for Linux");
 MODULE_LICENSE("GPL");
