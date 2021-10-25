@@ -19,12 +19,21 @@ once I'm happy. (I'm not a happy person. So give me a year or so.)
 (Instuctions are not complete)
 ### Fedora (34)
 Install the build tools if you don't already have them.
+
 `dnf install @development-tools`
+
 Clone this repo and enter it
+
 `git clone https://github.com/UntrustedRoot/Simple-PS3-DDR-Dancemat-Driver-for-Linux.git & cd Simple-PS3-DDR-Dancemat-Driver-for-Linux`
+
 Compile
+
 `make`
+
 Load the module
+
 `sudo insmod usb_ps3_dancemat_driver.ko`
+
 Install the module for future reboots
+
 `TODO`
