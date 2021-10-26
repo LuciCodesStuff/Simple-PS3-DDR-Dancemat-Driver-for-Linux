@@ -12,9 +12,6 @@ Installation instructions for Fedora, Ubuntu, and Arch will be provided.
 Although this driver works 100% for it's intended purpose (playing Project Outfox!) the driver
 is not feature complete!
 
-Button mappings will change in future versions without warning. I will slap together a proper release (with .deb and .rpm files)
-once I'm happy. (I'm not a happy person. So give me a year or so.)
-
 ## Installation
 (Instuctions are not complete)
 ### Fedora (34)
