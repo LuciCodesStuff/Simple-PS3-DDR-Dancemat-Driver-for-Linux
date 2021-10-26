@@ -14,14 +14,20 @@ is not feature complete!
 
 ## Installation
 (Instuctions are not complete)
-### Fedora (34)
+### DKMS (Recommended)
+Use DKMS to have the drivers rebuilt on kernel upgrades, and as an easier way to install.
+
+`chmod +x dkms-install.sh && sudo ./dkms-install.sh`
+
+(Please note, I have only tested this on Fedora 33)
+### Fedora (33)
 Install the build tools if you don't already have them.
 
 `dnf install @development-tools`
 
 Clone this repo and enter it
 
-`git clone https://github.com/UntrustedRoot/Simple-PS3-DDR-Dancemat-Driver-for-Linux.git & cd Simple-PS3-DDR-Dancemat-Driver-for-Linux`
+`git clone https://github.com/UntrustedRoot/Simple-PS3-DDR-Dancemat-Driver-for-Linux.git && cd Simple-PS3-DDR-Dancemat-Driver-for-Linux`
 
 Compile
 
